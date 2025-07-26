@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------------------------
+/*------------import { ToolChildrenWrapper } from '../sidebar-tsx/tools/ToolHeader.js';-------------------------------------------------------------------------
  *  Copyright 2025 Glass Devtools, Inc. All rights reserved.
  *  Licensed under the Apache License, Version 2.0. See LICENSE.txt for more information.
  *--------------------------------------------------------------------------------------*/
@@ -10,7 +10,10 @@ import { isFeatureNameDisabled } from '../../../../common/voidSettingsTypes.js'
 import { URI } from '../../../../../../../base/common/uri.js'
 import { FileSymlink, LucideIcon, RotateCw, Terminal } from 'lucide-react'
 import { Check, X, Square, Copy, Play, } from 'lucide-react'
-import { getBasename, ListableToolItem, voidOpenFileFn, ToolChildrenWrapper } from '../sidebar-tsx/SidebarChat.js'
+import { getBasename } from '../sidebar-tsx/utils/fileUtils.js'
+import { voidOpenFileFn } from '../sidebar-tsx/utils/openFile.js'
+import { ToolChildrenWrapper } from '../sidebar-tsx/tools/ToolHeader.js'
+import { ListableToolItem } from '../sidebar-tsx/tools/ToolHeader.js'
 import { PlacesType, VariantType } from 'react-tooltip'
 
 enum CopyButtonText {

@@ -14,7 +14,8 @@ import { isAbsolute } from '../../../../../../../base/common/path.js'
 import { separateOutFirstLine } from '../../../../common/helpers/util.js'
 import { BlockCode } from '../util/inputs.js'
 import { CodespanLocationLink } from '../../../../common/chatThreadServiceTypes.js'
-import { getBasename, getRelative, voidOpenFileFn } from '../sidebar-tsx/SidebarChat.js'
+import { getBasename, getRelative } from '../sidebar-tsx/utils/fileUtils.js'
+import { voidOpenFileFn } from '../sidebar-tsx/utils/openFile.js'
 
 
 export type ChatMessageLocation = {

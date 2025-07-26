@@ -8,7 +8,7 @@ import { useIsDark } from '../util/services.js';
 // import { SidebarChat } from './SidebarChat.js';
 
 import '../styles.css'
-import { SidebarChat } from './SidebarChat.js';
+import { SidebarChat } from './components/SidebarChat.js';
 import ErrorBoundary from './ErrorBoundary.js';
 
 export const Sidebar = ({ className }: { className: string }) => {

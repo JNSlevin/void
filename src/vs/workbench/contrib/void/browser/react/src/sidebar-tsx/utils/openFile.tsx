@@ -3,7 +3,6 @@
  *  Licensed under the Apache License, Version 2.0. See LICENSE.txt for more information.
  *--------------------------------------------------------------------------------------*/
 
-import React from 'react';
 import { URI } from '../../../../../../../base/common/uri.js';
 import { ScrollType } from '../../../../../../../editor/common/editorCommon.js';
 import { useAccessor } from '../../util/services.js';

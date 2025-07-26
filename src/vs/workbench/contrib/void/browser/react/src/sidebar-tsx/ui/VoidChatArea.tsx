@@ -10,8 +10,7 @@ import { ModelDropdown } from '../../void-settings-tsx/ModelDropdown.js';
 import { VoidCustomDropdownBox } from '../../util/inputs.js';
 import { useAccessor, useSettingsState } from '../../util/services.js';
 import { IconX } from '../icons/index.js';
-// import { SelectedFiles } from '../components/SelectedFiles.js'; // Will be available in Task 4
-import { SelectedFiles } from '../SidebarChat.js'; // Temporary import until Task 4
+import { SelectedFiles } from '../components/SelectedFiles.js';
 import { ReasoningOptionSlider } from './ReasoningSlider.js';
 import { ButtonSubmit, ButtonStop } from './Buttons.js';
 
